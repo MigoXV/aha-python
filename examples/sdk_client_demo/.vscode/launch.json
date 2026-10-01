@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+    "name": "SDK 客户端 demo",
+    "type": "debugpy",
+    "request": "launch",
+    "module": "aha_sdk_demo.commands.app",
+    "console": "integratedTerminal",
+    "justMyCode": false,
+    "envFile": "${workspaceFolder}/.env",
+    "preLaunchTask": "web: build"
+  }]
+}
