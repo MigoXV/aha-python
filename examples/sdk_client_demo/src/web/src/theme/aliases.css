@@ -1,0 +1,9 @@
+[data-theme="vallum"] {
+  --button-primary-bg: var(--av-ink-bone);
+  --button-primary-text: var(--av-pale-stone);
+  --surface-raised: var(--surface);
+}
+[data-theme="abyssus"] {
+  --button-primary-bg: var(--accent);
+  --button-primary-text: var(--on-accent);
+}
